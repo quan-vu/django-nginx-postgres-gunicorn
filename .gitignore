@@ -1,0 +1,9 @@
+*.pyc
+.idea
+.vscode
+*/venv/*
+*/*.pyc
+*/*/*.pyc
+*/migrations/*
+*/__pycache__
+/src/static/*

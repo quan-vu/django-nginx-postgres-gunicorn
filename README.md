@@ -26,3 +26,6 @@
 	- Be sure your django project works at: http://127.0.0.1:8000/
 	- If you get an error: "DisallowedHost", you may need to add '127.0.0.1' to ALLOWED_HOSTS.
 	- Done.
+
+## Step 2 - Dockerizing this Django project.
+	

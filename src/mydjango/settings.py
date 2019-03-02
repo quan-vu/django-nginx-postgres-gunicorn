@@ -25,7 +25,10 @@ SECRET_KEY = 'c&q8zp#!j1+0vm&dxw@e14kkk#=-7-276%jjct41b$y2cuc!k0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'web',           # Allow docker web container can access
+]
 
 
 # Application definition
