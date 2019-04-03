@@ -3,7 +3,8 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - "8000:8000"
+      - "80:80"
+      - "443:443"
     volumes:
       - ./src:/src
       - ./config/nginx:/etc/nginx/conf.d
@@ -16,7 +17,7 @@ services:
     volumes:
       - ./src:/src
     expose:
-      - "8000"
+      - "80"
     links:
       - redis
   db:
