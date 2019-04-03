@@ -1,5 +1,7 @@
 # Deploy Django, Gunicorn, NGINX, Postgresql using Docker
 
+- Webserver nginx run on port 80.
+
 ## I - Project structure
 
 ```
