@@ -1,6 +1,6 @@
 # Deploy Django, Gunicorn, NGINX, Postgresql using Docker
 
-- Webserver nginx run on port 80.
+Webserver nginx run on port 80.
 
 ## I - Project structure
 
@@ -34,10 +34,14 @@ $ source venv/bin/activate
 - If you get an error: "DisallowedHost", you may need to add '127.0.0.1' to ALLOWED_HOSTS.
 - Done.
 
-## Step 2 - Dockerizing Django project.
+### Step 2 - Dockerizing Django project.
 
 Run project
 
 ```shell
 $ docker-compose up
 ```
+
+### Step 3 - Finish
+
+Enjoy it!
